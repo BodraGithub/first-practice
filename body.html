@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid  bg-danger">
+            <div class="container">
+                <a class="navbar-brand  " href="#">
+                  <img class="logo" src="images/amazon_logo.png" alt="Bootstrap" width="70" height="50">
+                </a>
+          <a class="navbar-brand " href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active nav-1" aria-current="page" href="">Home</a>
+              </li>
+              <li class="nav-item nav-1">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item  nav-1" href="#">Action</a></li>
+                  <li><a class="dropdown-item nav-1" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item nav-1" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled nav-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex mb-5" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success w-100  bg-warning nav-1" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- signin  button -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</header>
+<!-- image -->
+<div class="container-fluid mt-5 p-5">
+    <div class="row ">
+        <div class="col-3">
+            <img src="images/bg.jpg" class="rounded-circle w-100"  alt="">
+        </div>
+        <div class="col-3 mt-3">
+            <img src="images/bg2.jpg" class="rounded-circle w-100" alt="">
+        </div>
+        <div class="col-3 mt-3">
+            <img src="images/bg3.jpg" class="rounded-circle w-100" alt="">
+        </div>
+        <div class="col-3">
+            <img src="images/bg.jpg" class="rounded-circle w-100" alt="">
+        </div>
+    </div>
+</div>
+<!-- search -->
+ <!-- <div class="container text-center mt-5">
+<div class="container">
+    <input  placeholder="search you image" type="text">
+</div>
+</div> -->
+<!-- experiment  sucessful of search-->
+<div class="container mt-3 p-5">
+    <div class="row">
+        <div class="col-3 ">
+
+        </div>
+        <div class="col ">
+            <input placeholder="Search your image" class="w-100" type="text">
+        </div>
+        <div class="col-3 "></div>
+    </div>
+</div>
+<!-- form and image -->
+<div class="container-fluid mt-5  border border-warning p-5" >
+    <div class="row">
+        <div class="col-sm-6">
+            <img class="w-100" src="images/contact.jpeg" alt="">
+        </div>
+        <div class="col-sm-6 ">
+            <h1 class="text-center">Contact Us</h1>
+            <div class="row">
+                <div class="col">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="">Email</label>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="">Mobile Number</label>
+                    <input type="number" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="">Address</label>
+                    <textarea  class="form-control" id="" cols="30" rows="5"></textarea>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
